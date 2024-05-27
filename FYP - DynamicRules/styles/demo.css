@@ -1,0 +1,17 @@
+header {
+    background-color: #033162;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.headings {
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
