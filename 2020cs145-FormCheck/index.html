@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Beautiful Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+  <fieldset>
+    <legend>Fill Out Form With Speech Recognition</legend>
+    <code id="result">Live transcript here ...</code>
+    <button type="button" id="toggle">Voice Activation</button>
+    <!-- <p>Click on “Toggle listening”, then click on the form field, where you want to insert speeched text. Pause a bit after a sentence to process the speech-data. This demo only works with language <strong>“en-US”</strong>, only in Chrome, and only if you allow the microphone on this page!</p> -->
+    <label>Name<input /></label>
+    <label>Email<input /></label>
+    <label>Phone No.<input /></label>
+    <label>Address<textarea></textarea></label>
+    <button type="submit" id="submit">Submit</button>
+    <button type="button" id="reset">Reset</button>
+  </fieldset>
+</form>
+
+  <script src="script.js"></script>
+</body>
+</html>
